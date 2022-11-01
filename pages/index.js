@@ -21,7 +21,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Jude Beaton Portfolio</title>
         <meta
@@ -70,8 +70,14 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div className="overflow-hidden relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 md:h-96 md:w-96">
-            <Image src={deved} fill object-fit="cover" alt="" />
+          <div className="overflow-hidden relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-50 h-50 mt-20 md:h-96 md:w-96">
+            <Image
+              src={deved}
+              width={"80%"}
+              height={"60%"}
+              object-fit="cover"
+              alt=""
+            />
           </div>
         </section>
 
