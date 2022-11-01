@@ -76,7 +76,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
+          <div className="text-center">
             <h3 className=" text-3xl py-1">Skills I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Some text about my <span className="text-teal-500">skills</span>{" "}
@@ -127,7 +127,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
+          <div className="text-center">
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Some text about my <span className="text-teal-500">projects</span>{" "}
